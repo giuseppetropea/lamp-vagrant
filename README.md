@@ -14,11 +14,9 @@ Usage
 
 ### Startup
 
-1. Download [https://github.com/lroot/lamp-vagrant/archive/master.zip](https://github.com/lroot/lamp-vagrant/archive/master.zip)
-2. Extract the ZIP file.
-3. From the command-line:
 ```
-$ cd lamp-vagrant-master
+$ git clone git@github.com:giuseppetropea/lamp-vagrant.git
+$ cd lamp-vagrant
 $ vagrant up
 ```
 
@@ -38,4 +36,6 @@ Technical Details
 * Apache 2.4
 * PHP 7
 * MySQL 5.7
-* Composer
+* phpMyAdmin 4.5
+* Composer 1.5
+* npm 3.5
